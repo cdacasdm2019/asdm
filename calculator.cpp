@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-    char operator;
+    char op;
     float num1, num2;
 
     cout << "Enter operator either + or - or * or /: ";
-    cin >> operator;
+    cin >> op;
 
     cout << "Enter two Numbers: ";
     cin >> num1 >> num2;
 
-    switch(operator)
+    switch(op)
     {
         case '+':
             cout << num1+num2;
